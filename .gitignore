@@ -1,0 +1,6 @@
+output/
+templates/
+temp/
+oscript_modules/
+officer.code-workspace
+*.ospx
