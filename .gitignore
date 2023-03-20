@@ -1,3 +1,5 @@
+output/
+temp/
 oscript_modules/
 officer.code-workspace
 *.ospx
