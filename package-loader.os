@@ -1,5 +1,4 @@
-// BSLLS:UnusedLocalMethod-off
-// BSLLS:UnusedParameters-off
+// BSLLS-off
 
 Перем ПоказатьСообщенияЗагрузки; // сообщения о порядке загрузки пакетов
 Перем ВыдаватьОшибкуПриЗагрузкеУжеСуществующихКлассовМодулей; // сообщения о повторной загрузке
@@ -106,6 +105,3 @@
 
 // для установки других значений переменных среды и запуска скриптов можно юзать следующую командную строку
 // (set OSLIB_LOADER_TRACE=1) && (oscript .\tasks\test.os)
-
-// BSLLS:UnusedLocalMethod-on
-// BSLLS:UnusedParameters-on
