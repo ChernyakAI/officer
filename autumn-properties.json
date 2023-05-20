@@ -2,34 +2,5 @@
     "КаталогШаблонов": "templates",
     "КаталогСохранения": "output",
     "КаталогВременныхФайлов": "temp",
-    "ПутьКФайлуНастройкиПодстановки": "config/example.json",
-    "logos": {
-        "logger": {
-          "rootLogger": {"level":"WARN"},
-          "officer.logger.DEBUG": "DEBUG",
-          "officer.logger.INFO": "INFO",
-          "officer.logger.WARN": {"level":"WARN"},
-          "officer.logger.stringlayout": {"level":"INFO", "stringlayout":"%ДатаВремя%:%Уровень% - %Сообщение%"},
-          "officer.logger.classlayout": {"level":"INFO", "classlayout":"РаскладкаЛогоса"},
-          "officer.logger.standartlayout": {"level":"INFO", "classlayout":"ОсновнаяРаскладкаСообщения"},
-          "officer.logger.jsonlayout": {"level":"INFO", "classlayout":"JSONРаскладкаСообщения"},
-          "officer.logger.ERROR": {"level":"ERROR"},
-          "officer.logger.CRITICALERROR": {"level":"CRITICALERROR"},
-          "officer.logger.DISABLE": {"level":"DISABLE"},
-          "officer.logger.DEFAULT": {"level":"DEFAULT"},
-          "officer.logger.fileappender": {"level":"DEBUG", "appenders": ["debugfile", "consoledebug"]},
-          "officer.logger.consoleappender": {"level":"INFO", "appenders": "debugfile, consoledebug"}
-        },
-        "appender": {
-            "debugfile": {
-                "type": "ВыводЛогаВФайл",
-                "level": "DEBUG",
-                "file": "logs/officer.log"
-            },
-            "consoledebug": {
-                "type": "ВыводЛогаВКонсоль",
-                "level": "DEBUG"
-            }
-        }
-      }
+    "ПутьКФайлуНастройкиПодстановки": "config/example.json"
 }
